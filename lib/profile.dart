@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:webviewDemo/Screens/Welcome/welcome_screen.dart';
-import 'package:webviewDemo/constants.dart';
-import 'package:webviewDemo/drawer_menu.dart';
+import 'package:Webdemo/Screens/Welcome/welcome_screen.dart';
+import 'package:Webdemo/constants.dart';
+import 'package:Webdemo/drawer_menu.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class MyProfile extends StatelessWidget {
@@ -45,7 +45,7 @@ class MyProfile extends StatelessWidget {
                     alignment: Alignment.centerLeft,
                     child: Center(
                       child: Text(
-                        "อัครพล สมโภชน์",
+                        "พิษณุ สุทาศรี",
                         style: bulletStyle,
                       ),
                     ),
@@ -54,7 +54,7 @@ class MyProfile extends StatelessWidget {
                   ClipRRect(
                     borderRadius: BorderRadius.circular(50.0),
                     child: Image.asset(
-                      "assets/images/001.JPG",
+                      "assets/images/001.jpg",
                       height: 280.0,
                     ),
                   ),
@@ -81,7 +81,7 @@ class MyProfile extends StatelessWidget {
                     leading: Icon(Icons.arrow_forward),
                     title: Align(
                       child: new Text(
-                        'จบชั้นประถมศึกษาชั้นป.1 - 6 โรงเรียนบ้านลิ้นฟ้า',
+                        'จบชั้นประถมศึกษาชั้นป.1 - 6 โรงเรียนบ้านโนนสำราญ',
                         style: contentStyle,
                       ),
                       alignment: Alignment(-1.8, 0),
@@ -91,7 +91,7 @@ class MyProfile extends StatelessWidget {
                     leading: Icon(Icons.arrow_forward),
                     title: Align(
                       child: new Text(
-                        'จบชั้นมัธยมศึกษาปีที่ 1 - 6 โรงเรียนลินฟ้าพิทยาคม',
+                        'จบชั้นมัธยมศึกษาปีที่ 1 - 6 โรงเรียนบึงมะลูวิทยา',
                         style: contentStyle,
                       ),
                       alignment: Alignment(-1.8, 0),
@@ -109,7 +109,7 @@ class MyProfile extends StatelessWidget {
                     leading: Icon(Icons.phone_android),
                     title: Align(
                       child: new Text(
-                        '097-336650-2',
+                        '095-904-6003',
                         style: contentStyle,
                       ),
                       alignment: Alignment(-1, 0),
@@ -119,7 +119,7 @@ class MyProfile extends StatelessWidget {
                     leading: Icon(Icons.person),
                     title: Align(
                       child: new Text(
-                        'https://www.facebook.com/tong08ba',
+                        'https://www.facebook.com/nopphotoss',
                         style: contentStyle,
                       ),
                       alignment: Alignment(-1, 0),
@@ -139,7 +139,7 @@ class MyProfile extends StatelessWidget {
                     leading: Icon(Icons.email),
                     title: Align(
                       child: new Text(
-                        'akkarapon.somp61@sskru.ac.th',
+                        'phissanu.suta61@sskru.ac.th',
                         style: contentStyle,
                       ),
                       alignment: Alignment(-1, 0),

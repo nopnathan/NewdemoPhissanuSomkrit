@@ -1,11 +1,11 @@
 import 'dart:convert';
 
-import 'package:webviewDemo/news_view.dart';
+import 'package:Webdemo/news_view.dart';
 import 'package:flutter/material.dart';
-import 'package:webviewDemo/drawer_menu.dart';
+import 'package:Webdemo/drawer_menu.dart';
 import 'package:http/http.dart' as Http;
 import '../Login/components/background.dart';
-import 'package:webviewDemo/profile.dart';
+import 'package:Webdemo/profile.dart';
 
 class NewsPage extends StatefulWidget {
   @override

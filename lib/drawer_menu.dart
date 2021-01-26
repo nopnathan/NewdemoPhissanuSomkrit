@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:webviewDemo/Screens/Signup/components/body.dart';
-import 'package:webviewDemo/Screens/Signup/signup_screen.dart';
-import 'package:webviewDemo/Screens/app/news_screen.dart';
-import 'package:webviewDemo/profile.dart';
+import 'package:Webdemo/Screens/Signup/components/body.dart';
+import 'package:Webdemo/Screens/Signup/signup_screen.dart';
+import 'package:Webdemo/Screens/app/news_screen.dart';
+import 'package:Webdemo/profile.dart';
 
 class DrawerMenu extends StatefulWidget {
   @override
@@ -19,8 +19,8 @@ class _DrawerMenuState extends State<DrawerMenu> {
     padding: EdgeInsets.zero,
     children: <Widget>[
       UserAccountsDrawerHeader(
-        accountName: Text('Akkarapon Sompoth'), 
-        accountEmail: Text('akkarapon.somp61@sskru.ac.th'),
+        accountName: Text('Phissanu Sutasri'), 
+        accountEmail: Text('phissanu.suta61@sskru.ac.th'),
         currentAccountPicture: CircleAvatar(
           child: FlutterLogo(
             size: 40.0,

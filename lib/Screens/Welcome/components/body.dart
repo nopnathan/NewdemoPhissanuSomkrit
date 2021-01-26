@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:webviewDemo/Screens/Login/login_screen.dart';
-import 'package:webviewDemo/Screens/Signup/signup_screen.dart';
-import 'package:webviewDemo/Screens/Welcome/components/background.dart';
-import 'package:webviewDemo/components/rounded_button.dart';
-import 'package:webviewDemo/constants.dart';
+import 'package:Webdemo/Screens/Login/login_screen.dart';
+import 'package:Webdemo/Screens/Signup/signup_screen.dart';
+import 'package:Webdemo/Screens/Welcome/components/background.dart';
+import 'package:Webdemo/components/rounded_button.dart';
+import 'package:Webdemo/constants.dart';
 import 'package:flutter_svg/svg.dart';
 
 class Body extends StatelessWidget {
